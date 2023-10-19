@@ -1,0 +1,55 @@
+manufacturer: Cisco
+model: CBS350-8XT
+slug: cbs350-8xt
+part_number: cbs350-8xt
+comments: '[CBS350 series datasheet](https://www.cisco.com/c/en/us/products/collateral/switches/business-350-series-managed-switches/datasheet-c78-744156.html'
+is_full_depth: false
+u_height: 1.0
+console-ports:
+- name: console
+  type: rj-45
+- name: usb
+  type: usb-mini-b
+power-ports:
+- name: External PS
+  type: iec-60320-c14
+  maximum_draw: 51
+interfaces:
+- name: TenGigabitEthernet1
+  type: 10gbase-t
+- name: TenGigabitEthernet2
+  type: 10gbase-t
+- name: TenGigabitEthernet3
+  type: 10gbase-t
+- name: TenGigabitEthernet4
+  type: 10gbase-t
+- name: TenGigabitEthernet5
+  type: 10gbase-t
+- name: TenGigabitEthernet6
+  type: 10gbase-t
+- name: TenGigabitEthernet7
+  type: 10gbase-t
+- name: TenGigabitEthernet8
+  type: 10gbase-t
+- name: TenGigabitEthernet9
+  type: 10gbase-x-sfpp
+- name: TenGigabitEthernet10
+  type: 10gbase-x-sfpp
+- name: Port-channel11
+  type: lag
+- name: Port-channel12
+  type: lag
+- name: Port-channel13
+  type: lag
+- name: Port-channel14
+  type: lag
+- name: Port-channel15
+  type: lag
+- name: Port-channel16
+  type: lag
+- name: Port-channel17
+  type: lag
+- name: Port-channel18
+  type: lag
+- name: vlan1
+  type: virtual  
